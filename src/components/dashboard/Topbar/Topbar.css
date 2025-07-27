@@ -1,0 +1,141 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Topbar.css */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 10px 16px;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  flex-wrap: wrap;
+  min-width: 180px;
+}
+
+.filters input,
+.filters select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.export-buttons {
+  display: flex;
+  gap: 8px;
+  margin-left: 20px;
+}
+
+.export-buttons button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.export-buttons .excel {
+  background-color: #27ae60;
+  color: white;
+}
+
+.export-buttons .pdf {
+  background-color: #c0392b;
+  color: white;
+}
+
+.hamburger {
+      display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.filters-exportbuttons-container{
+    display: flex;
+    /* flex-direction: column; */
+
+  }
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    /* height: 40vh; */
+  }
+
+  .filters,
+  .export-buttons {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hamburger {
+    display: block;
+    align-self: flex-end;
+  }
+  .filters-exportbuttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: row; /* Keep row so hamburger stays on right */
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .filters-exportbuttons-container {
+    flex-direction: column; /* Stack filters + export buttons */
+    flex: 1;
+  }
+
+  .filters,
+  .export-buttons {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hamburger {
+    display: block;
+    align-self: flex-start; /* Top right on mobile */
+    margin-left: auto;
+  }
+}

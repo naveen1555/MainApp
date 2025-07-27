@@ -1,0 +1,196 @@
+/* .user-table {
+  overflow-x: auto;
+}
+
+.user-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+} */
+
+.user-table {
+  width: 100%;
+}
+
+/* Desktop table */
+.desktop-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  min-width: 600px;
+}
+
+.desktop-table th,
+.desktop-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.desktop-table thead {
+  background-color: #f3f3f3;
+}
+
+.mobile-cards {
+  display: none;
+}
+
+/* Mobile Cards */
+@media (max-width: 768px) {
+  .desktop-table {
+    display: none;
+  }
+
+  .mobile-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  .card p {
+    margin: 6px 0;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+.user-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.user-table table {
+  width: 100%;
+  border-collapse: collapse;
+  /* min-width: 600px; Force horizontal scroll on smaller screens */
+  background: white;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.user-table thead {
+  background-color: #f0f0f0;
+}
+
+/* Optional: Add mobile-specific tweaks */
+@media (max-width: 768px) {
+  .user-table {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .user-table::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .user-table::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+  }
+}
+
+.user-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Table Styles */
+.user-table {
+  width: 100%;
+  min-width: 600px; /* Forces scroll on small screens */
+  border-collapse: collapse;
+  background: white;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap; /* Prevent cell wrapping */
+}
+
+.user-table thead {
+  background-color: #f3f3f3;
+}
+
+/* Optional: Custom Scrollbar for horizontal scroll */
+.user-table-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.user-table-wrapper::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Responsive table */
+.user-table {
+  width: 100%;
+  /* min-width: 600px; Force scroll on small screens */
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+  white-space: nowrap; /* Prevent breaking rows into multiple lines */
+}
+
+.user-table thead {
+  background-color: #f3f3f3;
+}
+
+
+/* Optional: Smooth scroll and custom scrollbar */
+.table-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 4px;
+}
+
+/* @media (max-width: 768px) {
+.table-row{
+  display: flex;
+  flex-direction: row;
+
+}
+} */

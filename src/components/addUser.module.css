@@ -1,0 +1,59 @@
+.button {
+  border: none;
+  background: #31117c;
+  color: #ffffff;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover{
+  background:#3e159d ;
+}
+/* 
+.button:focus {
+  outline: none;
+} */
+
+
+.errorcard{
+  border: 1px solid black;
+  position: fixed;
+  top: 30vh;
+  left: 300px;
+  z-index: 100;
+}
+
+
+.errorMessage{
+  padding: 20px;
+}
+
+.errorOkbButton{
+  border: none;
+  background: #31117c;
+  color: #ffffff;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; 
+}
+
+
+.errorHeading{
+  background-color: #31117c;
+  color: #ffffff;
+  padding-left: 180px;
+}
+
+.userListContainer{
+  list-style: none;
+}
+
+.userContainer{
+  border: 1px solid #31117c;
+  width: 200px;
+  margin: 5px 3px;
+  padding: 2px 4px;
+}

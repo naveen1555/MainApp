@@ -1,0 +1,13 @@
+.btn {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.todotext {
+    width: 500px;
+}

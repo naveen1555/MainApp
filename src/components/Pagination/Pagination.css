@@ -1,0 +1,10 @@
+.page-numbers {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-button {
+  margin: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+@import './variables';
+
+.btn {
+  background: $primary-color;
+  color: $accent-color;
+  padding: 10px 25px;
+  border: none;
+  border-radius: $radius;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: darken($primary-color, 10%);
+  }
+}

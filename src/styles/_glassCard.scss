@@ -1,0 +1,16 @@
+@import './variables';
+
+.glass-card {
+  background: $glass-bg;
+  box-shadow: $box-shadow;
+  border-radius: $radius;
+  border: 1px solid $border-color;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}

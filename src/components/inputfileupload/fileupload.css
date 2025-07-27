@@ -1,0 +1,67 @@
+/* .file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed black;
+  
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+.file-input {
+    display: none;
+}
+
+.cloud-icon {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.browse-text {
+    margin-left: 5px;
+}
+
+.upload-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} */
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed black;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+.file-input {
+    display: none;
+}
+
+.cloud-icon {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.browse-text {
+    margin-left: 5px;
+}
+
+.upload-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    /* Explicitly set the background color to transparent to prevent unwanted changes */
+    background-color: transparent;
+}
+
+/* Style for the hover state */
+.upload-button:hover {
+    /* Set the background color to transparent on hover to override any default styles */
+    background-color: transparent;
+    color: black;
+}
